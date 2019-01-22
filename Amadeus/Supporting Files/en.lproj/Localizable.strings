@@ -1,0 +1,161 @@
+/* 
+  Localizable.strings
+  Amadeus
+
+  Created by Theo Caselli on 20/06/2017.
+  Copyright © 2017 Vibear Inc. All rights reserved.
+*/
+
+//Generic Message
+
+"error" = "Error";
+"error.unknown" = "Unknown Error";
+"network.noresp" = "No response";
+"permissiondenied.title" = "Permission Denied";
+"permissiondenied.text" = "You have blocked the permission to access the microphone, please, active it in the settings";
+"network.timeout" = "Are you sure you're in your house and connected to your Wi-Fi?";
+"network.response.error.title" = "Response Error";
+"network.response.error.text" = "Bad Response From Vibear Box";
+"network.error" = "Network Error";
+"pulltorefresh" = "Pull To Refresh";
+"yes" = "Yes";
+"no" = "No";
+
+//Pairing part + Storyboard
+
+    //First Opening
+
+"firstopening.welcome" = "You're about to configure your Vibear Box. You're invited on the next screen to enter a code. You will only do this on the first connection";
+"firstopening.button" = "Next";
+
+    //Search Box
+
+"searchbox.text" = "Searching Vibear box, please wait";
+"searchbox.nobox" = "No Box Found, would you retry?";
+
+    //Pairing
+
+"pairing.text" = "Enter the code shown on your Vibear Box please";
+"pairing.button" = "Pair";
+"pairing.tokenerror" = "Token Error";
+"pairing.tokentooshort" = "The code is too short, please enter 6 digits";
+
+    //Pairing Success
+
+"pairingsuccess.text" = "The setup is now complete!";
+"pairingsuccess.button" = "Go to HomeScreen";
+"pairingsuccess.error" = "Cannot continue";
+
+//Home part + StoryBoard
+
+    //Home Collection View
+
+"home.title" = "Home";
+"home.todaynotif" = "Today";
+"home.nonotif" = "No Notifications";
+"home.pastnotif" = "Past Notifications";
+"home.errornotifload" = "Cannot Load Notifications";
+"home.search" = "Results";
+"home.searchnoresults" = "No Results";
+
+    //Monitoring Table View
+
+"monitoring.title" = "Monitoring";
+"monitoring.error" = "Cannot Load Micro";
+"monitoring.action" = "Delete";
+"monitoring.action.title" = "Delete Micro";
+"monitoring.action.text" = "Are-you sure that want to delete this micro?";
+"monitoring.deleteerror" = "Cannot Delete Micro";
+
+    //Mic Detail View Controller
+
+"micdetail.placeholder" = "Micro name";
+"micdetail.buttonchange" = "Change name";
+"micdetail.buttondelete" = "Delete micro";
+"micdetail.state.error" = "This micro doesn't work or is shutdown";
+"micdetail.state.problem" = "This micro have a problem, and need to be fixed";
+"micdetail.state.isok" = "This micro working perfectly";
+"micdetail.samename" = "You have entered the same micro name!";
+"micdetail.cannotmodify" = "Cannot Modify Micro";
+"micdetail.ok.title" = "Micro Title Changed";
+"micdetail.ok.text" = "Perfect you're micro have upgraded his name";
+"micdetail.delete.title" = "Micro Deleting";
+"micdetail.delete.text" = "Are-you sure that you want to delete this micro?";
+"micdetail.delete.error.title" = "Cannot Delete Micro";
+"micdetail.delete.ok.title" = "Micro deleted";
+"micdetail.delete.ok.text" = "You're micro has been deleted";
+
+    //Add Mic Presentation View Controller
+
+"addmicpresentation.title" = "Add Micro";
+"addmicpresentation.text" = "You're about to configure a new microphone, the interface will told you to chose one microphone on the next list and set a name for it!";
+"addmicpresentation.next" = "Next";
+
+    //Add Mic Table View Controller
+
+"addmic.title" = "Add Micro";
+"addmic.error" = "Cannot Load Micro";
+"addmic.nomic" = "No microphone found";
+
+    //Add Mic Name View Controller
+
+"addmicname.text" = "Please enter the Microphone Name";
+"addmicname.micnamelabel" = "Add micro";
+"addmicname.finish" = "Finish";
+"addmicname.title" = "Add Micro";
+"addmicname.noname" = "Please Enter micro name";
+"addmicname.cannotsave" = "Cannot Save Micro";
+
+    //Settings Table View Controller
+
+"settings.title" = "Settings";
+"settings.notifheader" = "Notifications";
+"settings.notifcell" = "Notifications Manager";
+"settings.soundheader" = "Sounds";
+"settings.soundcell" = "Sounds Manager";
+"settings.mischeader" = "Miscellaneous";
+"settings.nightmode" = "Night Mode";
+"settings.logoutheader" = "Log Out";
+"settings.logoutcell" = "Log Out";
+"settings.confirmation" = "Are-you sure that you want to unpair your iPhone from the Vibear Box?";
+
+    //Notification Manager View Controller
+
+"notifmanager.title" = "Notifications Manager";
+"notifmanager.cannotload" = "Cannot Load Sound";
+"notifmanager.cannotmodify" = "Cannot Modify Notification State";
+
+    //Sound Manager View Controller
+
+"soundmanager.title" = "Sound Manager";
+"soundmanager.back" = "Back";
+"soundmanager.cannotload" = "Cannot Load Sound";
+"soundmanager.action" = "Delete";
+"soundmanager.action.title" = "Delete Sound";
+"soundmanager.action.text" = "Are-you sure that you want to delete this sound?";
+"soundmanager.deleteerror" = "Cannot Delete Sound";
+
+    //Sound Detail View Controller
+
+"sounddetail.placeholder" = "Sound name";
+"sounddetail.buttonchange" = "Change name";
+"sounddetail.buttondelete" = "Delete sound";
+"sounddetail.samename" = "You have entered the same sound name!";
+"sounddetail.cannotmodify" = "Cannot Modify Sound";
+"sounddetail.ok.title" = "Sound Title Changed";
+"sounddetail.ok.text" = "Perfect you're sound have upgraded his name";
+"sounddetail.delete.title" = "Sound Deleting";
+"sounddetail.delete.text" = "Are you sure you want to delete this sound?";
+"sounddetail.delete.error.title" = "Cannot Delete Sound";
+"sounddetail.delete.ok.title" = "Sound deleted";
+"sounddetail.delete.ok.text" = "You're sound has been deleted";
+
+    //Add Sound View Controller
+
+"addsound.save" = "Save";
+"addsound.cancel" = "Cancel";
+"addsound.soundnamelabel" = "Add sound";
+"addsound.title" = "Add Sound";
+"addsound.noname" = "Please Enter sound name";
+"addsound.cannotsave" = "Cannot Save Sound";
+

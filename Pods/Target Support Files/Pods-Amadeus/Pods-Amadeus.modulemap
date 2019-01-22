@@ -1,0 +1,6 @@
+framework module Pods_Amadeus {
+  umbrella header "Pods-Amadeus-umbrella.h"
+
+  export *
+  module * { export * }
+}

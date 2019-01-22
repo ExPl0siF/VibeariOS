@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Cs8-VB-goY" customClass="HomeCardView" customModule="Amadeus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dans la cuisine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="4dD-HH-Zjb">
+                    <rect key="frame" x="16" y="66" width="187" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="187" id="Uth-hN-dsH"/>
+                        <constraint firstAttribute="height" constant="35" id="nmA-i4-3vO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:43" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mR-Fw-aAX">
+                    <rect key="frame" x="275" y="30" width="69" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="4S6-kz-MvT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhB-29-XiK">
+                    <rect key="frame" x="0.0" y="109" width="360" height="19"/>
+                    <color key="backgroundColor" red="0.098039215690000001" green="0.70588235290000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="yIH-g2-UGv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Four" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="75W-D9-Hri">
+                    <rect key="frame" x="16" y="27" width="187" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="187" id="FR8-gi-tyz"/>
+                        <constraint firstAttribute="height" constant="39" id="oPU-Lb-V6K"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14/08/2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="y5c-nR-iot">
+                    <rect key="frame" x="275" y="66" width="69" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="nVZ-7o-MCg"/>
+                        <constraint firstAttribute="width" constant="69" id="wIb-4s-7SA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000000000001" green="0.29803921570000003" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WhB-29-XiK" secondAttribute="bottom" id="AM8-kv-1O8"/>
+                <constraint firstAttribute="trailing" secondItem="WhB-29-XiK" secondAttribute="trailing" id="HRk-G4-LaR"/>
+                <constraint firstItem="WhB-29-XiK" firstAttribute="top" secondItem="4dD-HH-Zjb" secondAttribute="bottom" constant="8" id="Hny-Pd-Y2U"/>
+                <constraint firstItem="7mR-Fw-aAX" firstAttribute="top" secondItem="Cs8-VB-goY" secondAttribute="top" constant="30" id="JQz-TD-v8i"/>
+                <constraint firstItem="75W-D9-Hri" firstAttribute="centerY" secondItem="7mR-Fw-aAX" secondAttribute="centerY" id="Mmn-lt-dZb"/>
+                <constraint firstAttribute="trailing" secondItem="y5c-nR-iot" secondAttribute="trailing" constant="16" id="RCJ-bI-mxP"/>
+                <constraint firstItem="4dD-HH-Zjb" firstAttribute="leading" secondItem="Cs8-VB-goY" secondAttribute="leading" constant="16" id="avR-aw-pMb"/>
+                <constraint firstItem="75W-D9-Hri" firstAttribute="leading" secondItem="Cs8-VB-goY" secondAttribute="leading" constant="16" id="bMR-Ps-H0H"/>
+                <constraint firstItem="75W-D9-Hri" firstAttribute="top" secondItem="Cs8-VB-goY" secondAttribute="top" constant="27" id="evS-TC-OaK"/>
+                <constraint firstItem="WhB-29-XiK" firstAttribute="top" secondItem="y5c-nR-iot" secondAttribute="bottom" constant="8" id="jkW-zr-vRn"/>
+                <constraint firstAttribute="trailing" secondItem="7mR-Fw-aAX" secondAttribute="trailing" constant="16" id="lCb-Ms-uEH"/>
+                <constraint firstItem="4dD-HH-Zjb" firstAttribute="centerY" secondItem="y5c-nR-iot" secondAttribute="centerY" id="o4v-dF-jtr"/>
+                <constraint firstItem="WhB-29-XiK" firstAttribute="leading" secondItem="Cs8-VB-goY" secondAttribute="leading" id="saU-pX-9JD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="notificationDate" destination="y5c-nR-iot" id="5pj-wQ-N6O"/>
+                <outlet property="notificationPlace" destination="4dD-HH-Zjb" id="Y9n-WV-NNj"/>
+                <outlet property="notificationTime" destination="7mR-Fw-aAX" id="B6V-AU-61R"/>
+                <outlet property="notificationTitle" destination="75W-D9-Hri" id="Arm-4h-C9g"/>
+            </connections>
+            <point key="canvasLocation" x="-71" y="325"/>
+        </view>
+    </objects>
+</document>

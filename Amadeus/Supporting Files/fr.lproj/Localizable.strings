@@ -1,0 +1,160 @@
+/* 
+  Localizable.strings
+  Amadeus
+
+  Created by Theo Caselli on 20/06/2017.
+  Copyright © 2017 Vibear Inc. All rights reserved.
+*/
+
+//Generic Message
+
+"error" = "Erreur";
+"error.unknown" = "Erreur inconnue";
+"network.noresp" = "Pas de réponse";
+"permissiondenied.title" = "Permission Refusée";
+"permissiondenied.text" = "Vous avez désactivé les permissions du microphne, veuillez les activer dans les réglages s'il vous plait";
+"network.timeout" = "Êtes-vous sur d'être chez vous et connecté au Wi-Fi ?";
+"network.response.error.title" = "Erreur de réponse";
+"network.response.error.text" = "Mauvaise réponse de la Vibear Box";
+"network.error" = "Erreur Réseau";
+"pulltorefresh" = "Rafraichir";
+"yes" = "Oui";
+"no" = "Non";
+
+//Pairing part + Storyboard
+
+//First Opening
+
+"firstopening.welcome" = "You're about to configure your Vibear Box. You're invited on the next screen to enter a code. You will only do this on the first connection";
+"firstopening.button" = "Suivant";
+
+//Search Box
+
+"searchbox.text" = "Recherche de box vibear, veuillez attendre";
+"searchbox.nobox" = "Pas de box trouvée, voulez-vous réessayer ?";
+
+//Pairing
+
+"pairing.text" = "Entrez le code affiché sur votre Vibear box s'il vous plait";
+"pairing.button" = "Jumeler";
+"pairing.tokenerror" = "Erreur Token";
+"pairing.tokentooshort" = "Le code entré n'est pas assez long, veuillez entrer 6 chiffres";
+
+//Pairing Success
+
+"pairingsuccess.text" = "La configuration est terminée !";
+"pairingsuccess.button" = "Aller à l'ecran d'accueil";
+"pairingsuccess.error" = "Impossible de continuer";
+
+//Home part + StoryBoard
+
+//Home Collection View
+
+"home.title" = "Accueil";
+"home.todaynotif" = "Aujourd'hui";
+"home.nonotif" = "Aucune Notification";
+"home.pastnotif" = "Anciennes Notifications";
+"home.errornotifload" = "Impossible de charger les notifications";
+"home.search" = "Résultats";
+"home.searchnoresults" = "Aucun Résultat";
+
+//Monitoring Table View
+
+"monitoring.title" = "Activité";
+"monitoring.error" = "Impossible de charger la liste des micros";
+"monitoring.action" = "Supprimer";
+"monitoring.action.title" = "Supprimer Micro";
+"monitoring.action.text" = "Êtes-vous sur de vouloir supprimer ce mirco ?";
+"monitoring.deleteerror" = "Impossible de supprimer le micro";
+
+//Mic Detail View Controller
+
+"micdetail.placeholder" = "Nom du micro";
+"micdetail.buttonchange" = "Changer de nom";
+"micdetail.buttondelete" = "Supprimer le micro";
+"micdetail.state.error" = "Ce micro ne marche pas ou est éteint";
+"micdetail.state.problem" = "Ce micro a un problème et doit être changé";
+"micdetail.state.isok" = "Ce micro fonctionne";
+"micdetail.samename" = "Vous avez entré le même nom de micro !";
+"micdetail.cannotmodify" = "Impossible de modifier le micro";
+"micdetail.ok.title" = "Nom de micro changé";
+"micdetail.ok.text" = "Parfait ! Le nom de votre micro a été mis à jour";
+"micdetail.delete.title" = "Suppression du micro";
+"micdetail.delete.text" = "Êtes-vous sur de vouloir supprimer ce micro ?";
+"micdetail.delete.error.title" = "Impossible de supprimer le micro";
+"micdetail.delete.ok.title" = "Micro supprimé";
+"micdetail.delete.ok.text" = "Votre micro à bien été supprimé";
+
+//Add Mic Presentation View Controller
+
+"addmicpresentation.title" = "Ajout micro";
+"addmicpresentation.text" = "Vous allez maintenant procéder à l'appairage des micros, l'interface va vous demander de choisir un micro et de lui donner un nom !";
+"addmicpresentation.next" = "Suivant";
+
+//Add Mic Table View Controller
+
+"addmic.title" = "Ajout micro";
+"addmic.error" = "Impossible de charger la liste de micro";
+"addmic.nomic" = "Aucun micro trouvé";
+
+//Add Mic Name View Controller
+
+"addmicname.text" = "Entrez le nom du micro s'il vous plait";
+"addmicname.micnamelabel" = "Ajouter micro";
+"addmicname.finish" = "Terminer";
+"addmicname.title" = "Ajout micro";
+"addmicname.noname" = "Entrez le nom du micro s'il vous plait";
+"addmicname.cannotsave" = "Impossible de sauvegarder le micro";
+
+//Settings Table View Controller
+
+"settings.title" = "Réglages";
+"settings.notifheader" = "Notifications";
+"settings.notifcell" = "Gestionnaire de Notifications";
+"settings.soundheader" = "Sons";
+"settings.soundcell" = "Gestionnaire de Sons";
+"settings.mischeader" = "Divers";
+"settings.nightmode" = "Mode Nuit";
+"settings.logoutheader" = "Déconnexion";
+"settings.logoutcell" = "Déconnexion";
+"settings.confirmation" = "Êtes-vous sur de vouloir déjumeler l'application de votre Vibear Box ?";
+
+//Notification Manager View Controller
+
+"notifmanager.title" = "Gestionnaire de Notifications";
+"notifmanager.cannotload" = "Impossible de charger la liste des sons";
+"notifmanager.cannotmodify" = "Impossible de désactiver le statut de la notification";
+
+//Sound Manager View Controller
+
+"soundmanager.title" = "Gestionnaire de Sons";
+"soundmanager.back" = "Retour";
+"soundmanager.cannotload" = "Impossible de charger le son";
+"soundmanager.action" = "Supprimer";
+"soundmanager.action.title" = "Supprimer le son";
+"soundmanager.action.text" = "Êtes-vous sur de vouloir supprimer le son ?";
+"soundmanager.deleteerror" = "Impossible de supprimer le son";
+
+//Sound Detail View Controller
+
+"sounddetail.placeholder" = "Nom du son";
+"sounddetail.buttonchange" = "Changer le nom";
+"sounddetail.buttondelete" = "Supprimer le son";
+"sounddetail.samename" = "Vous avez entrez le même nom de son !";
+"sounddetail.cannotmodify" = "Impossible de modifier le son";
+"sounddetail.ok.title" = "Nom de micro changé";
+"sounddetail.ok.text" = "Parfait ! Le nom de votre son a été mis à jour";
+"sounddetail.delete.title" = "Suppression du son";
+"sounddetail.delete.text" = "Êtes-vous sur de vouloir supprimer ce son ?";
+"sounddetail.delete.error.title" = "Impossible de supprimer le son";
+"sounddetail.delete.ok.title" = "Son supprimé";
+"sounddetail.delete.ok.text" = "Votre son a bien été supprimé";
+
+//Add Sound View Controller
+
+"addsound.save" = "Sauvegarder";
+"addsound.cancel" = "Annuler";
+"addsound.soundnamelabel" = "Ajouter son";
+"addsound.title" = "Ajouter son";
+"addsound.noname" = "Entrez le nom du micro s'il vous plait";
+"addsound.cannotsave" = "Impossible de sauvegarder le son";

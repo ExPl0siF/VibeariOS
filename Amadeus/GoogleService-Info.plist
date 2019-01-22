@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>923124399401-gngds71enup0mc1n6js3d2skjo2lr1qn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.923124399401-gngds71enup0mc1n6js3d2skjo2lr1qn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC__DELC9VaJ_5g2oOeXeb3AMF0r909_Ao</string>
+	<key>GCM_SENDER_ID</key>
+	<string>923124399401</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Amadeus.Vibear</string>
+	<key>PROJECT_ID</key>
+	<string>amadeus-ee57f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>amadeus-ee57f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:923124399401:ios:260ca49ca8396800</string>
+	<key>DATABASE_URL</key>
+	<string>https://amadeus-ee57f.firebaseio.com</string>
+</dict>
+</plist>
